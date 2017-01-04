@@ -14,6 +14,7 @@ are refreshed and the current keys will be invalid.
 The output of 'ip xfrm state list' will be non-empty when an IPsec
 tunnel is already up.  For example:
 
+
 # ip xfrm state list
 src 100.90.1.1 dst 10.66.22.55
 	proto esp spi 0xcea01312 reqid 1 mode tunnel
