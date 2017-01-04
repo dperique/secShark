@@ -14,7 +14,7 @@ are refreshed and the current keys will be invalid.
 The output of 'ip xfrm state list' will be non-empty when an IPsec
 tunnel is already up.  For example:
 
-
+```
 $ ip xfrm state list
 
 src 100.90.1.1 dst 10.66.22.55
@@ -29,4 +29,4 @@ src 10.66.22.55 dst 100.90.1.1
 	auth hmac(sha256) 0x1df865b65ba4919ff787659b63e21a2261f2c35fe0eadc9e8b028b8c347fb166
 	enc cbc(aes) 0x13edc144aacbd0826d68eb3e02bc880e0dd161e317dc7291e47cc02adf2ba932
 	encap type espinudp sport 4500 dport 4500 addr 0.0.0.0
-  
+```
