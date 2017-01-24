@@ -11,6 +11,9 @@ You will now see ESP frames decoded using the correct keys.
 You must repeat this after every IPsec rekey because the keys
 are refreshed and the current keys will be invalid.
 
+NOTE: the script is very specific to certain RFC specifications for the encryption; you will
+have to modify it if you are using different settings.
+
 The output of 'ip xfrm state list' will be non-empty when an IPsec
 tunnel is already up.  For example:
 
