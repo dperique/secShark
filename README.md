@@ -34,3 +34,5 @@ src 192.16.31.23 dst 107.154.104.99
 	enc cbc(aes) 0x13edc144aacbd0826d68eb3e02bc880e0dd161e317dc7291e47cc02adf2ba932
 	encap type espinudp sport 4500 dport 4500 addr 0.0.0.0
 ```
+
+NOTE: On Windows, you can put the file in c:\Users\<aUser>\AppData\Roaming\Wireshark\esp_sa
